@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+    <head>
+        <title>Ajouter un article</title>
+    </head>
+
+<body>
+    <h2>Ajouter un article</h2>
+    <form method="POST" action="ajout_article.php">
+        <p>
+            <label for="titre">Titre</label> :
+            <input type="text" name="titre" id="titre" required/>
+        </p>
+        <p>
+            <label for="contenu">Contenu</label> :
+            <input type="text" name="contenu" id="contenu" required/>
+        </p>
+        <p>
+            <label for="imagee">Image</label> :
+            <input type="file" name="imagee" id="imagee"/>
+        </p>
+        <p>
+            <label for="datee">Date</label> :
+            <input type="date" name="datee" id="datee"/>
+        </p>
+        <p>
+            <label for="auteur">Auteur</label> :
+            <input type="text" name="auteur" id="auteur" required/>
+        </p>
+        <p>
+            <label for="extrait">Extrait</label> :
+            <input type="text" name="extrait" maxlenght="300" id="extrait" required/>
+        </p>
+        <button type="submit" name="valider">Ajouter</button>
+    </form>
+    </body> 
+
+</html>

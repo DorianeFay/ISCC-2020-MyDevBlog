@@ -1,0 +1,97 @@
+header {
+    height: 90px;
+    vertical-align: middle;
+    background-color: rgba(163, 159, 159, 0.719);
+    text-align:center;
+    line-height: 90px;
+    color: rgb(148, 11, 86);
+    font-size: 150%;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(148, 11, 86);
+    font-size: 230%;
+    padding-top: 15px;
+}
+nav {
+    height: 30px;
+    width: 100%;
+    display: block;
+    text-align: left;
+    float: left;
+    background-color: rgb(148, 11, 86);
+    line-height: 30px;
+    color: white;
+    padding-left: 2%;
+}
+
+body {
+    margin: 10px;
+    background-color: rgb(228, 228, 228);}
+
+footer {
+    background-color: rgb(190, 190, 190);
+    height: 100px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    line-height: 25px;
+}
+.présentation {
+    display: inline-block;
+    flex-direction: row;
+    vertical-align: middle;
+   
+}
+#photocv {
+   width: 170px;
+   float: left;
+   padding-right: 3%;
+   padding-bottom: 5%;
+}
+
+.texteprésentation {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    line-height: 30px;
+
+}
+
+.cv {
+    max-width: 100%;
+    padding: 10px;
+    
+}
+
+.reseaux1 {
+    width: 5%;
+    float: left;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.reseaux2 {
+    width:10%;
+    float: right;
+    padding-right: 400px;
+    padding-top: 20px;
+}
+
+.admi {
+   position: absolute;
+    text-align: right;
+    left: 82%;
+    
+}
+
+form {
+    position: relative;
+    width : 740px;
+    height: 370px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
